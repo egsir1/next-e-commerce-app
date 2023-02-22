@@ -95,7 +95,7 @@ a {
   text-decoration: none;
 }
 .card {
-  @apply mb-5 bg-gray-900  text-white min-w-full block rounded-lg  border-gray-200 shadow-md m-auto;
+  @apply bg-gray-700 mx-auto  text-white min-w-full block rounded-lg  border-gray-200 shadow-md;
 }
 .card img {
   @apply w-full object-contain m-auto;

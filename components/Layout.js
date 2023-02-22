@@ -117,7 +117,7 @@ export default function Layout({ title, children }) {
                     </Menu.Item> */}
                     <Menu.Item>
                       <a
-                        className="text- bg-gray-800  text-red-600 dropdown-link"
+                        className="text- bg-gray-900 top-1 right-0 absolute z-50 mb-2 rounded-lg text-red-400 dropdown-link"
                         href="#"
                         onClick={logoutClickHandler}
                       >

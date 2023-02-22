@@ -5,21 +5,21 @@ import React from "react";
 export default function ProductItem({ product, addToCartHandler }) {
   return (
     <div
-      className="card   "
+      className="card z-40 flex"
       style={{ boxShadow: "0 0px 4px rgba(0,0,0,0.35)" }}
     >
-      <Link href={`/product/${product.slug}`}>
-        <div className="rounded-md">
+      <div className="rounded-md flex-1">
+        <Link href={`/product/${product.slug}`}>
           <Image
             style={{ objectFit: "fill" }}
             src={product.image}
             alt={product.name}
-            className="rounded-md shadow"
+            className="rounded-md  shadow"
             width={200}
             height={200}
           />
-        </div>
-      </Link>
+        </Link>
+      </div>
 
       <div className="flex flex-col items-center text-center justify-center p-5">
         <Link href={`/product/${product.slug}`}>
@@ -37,7 +37,7 @@ export default function ProductItem({ product, addToCartHandler }) {
             fontWeight: "bold",
             marginTop: "0.5rem",
           }}
-          className="w-full primary-button hover:opacity-80"
+          className="w-full  primary-button hover:opacity-80"
           type="button"
           onClick={() => addToCartHandler(product)}
         >

@@ -5,10 +5,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 function Banner() {
   //bg-gradient-to-t from-gray-100 to-transparent
   return (
-    <div
-      className="relative banner "
-      style={{ height: "15rem", width: "100%" }}
-    >
+    <div style={{ height: "15rem", width: "100%" }}>
       <div className="absolute w-full h-22  bottom-0 z-20" />
       <Carousel
         autoPlay
@@ -38,7 +35,7 @@ function Banner() {
             quality={99}
           />
         </div>
-        <div>
+        {/* <div>
           <Image
             src="/image/ban-3.avif"
             alt="lamb"
@@ -47,7 +44,7 @@ function Banner() {
             height={600}
             quality={99}
           />
-        </div>
+        </div> */}
 
         <div>
           <Image

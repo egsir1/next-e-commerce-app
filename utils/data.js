@@ -2,12 +2,12 @@ import bcrypt from "bcryptjs";
 
 const data = {
   users: [
-    // {
-    //   name: "Sam",
-    //   email: "test@test.com",
-    //   password: bcrypt.hashSync("123456789"),
-    //   isAdmin: true,
-    // },
+    {
+      name: "Sam",
+      email: "test@test.com",
+      password: bcrypt.hashSync("123456789"),
+      isAdmin: true,
+    },
     {
       name: "John",
       email: "john11@gmail.com",
@@ -48,7 +48,7 @@ const data = {
     },
 
     {
-      name: "Lamb neck (1kg)",
+      name: "Lamb neck,with bone (1kg)",
       slug: "lamb-neck",
       image: "/image/neck.jpg",
       price: "10900",
@@ -60,7 +60,7 @@ const data = {
     {
       name: "Beef mince (1kg)",
       slug: "ground-beef",
-      image: "/image/ground.jpg",
+      image: "/image/qiy.jpg",
       price: "14900",
       rating: "4.8",
       description: "Neither fatty nor bony ",
@@ -69,9 +69,9 @@ const data = {
     },
 
     {
-      name: "Beef trotters (1kg)",
+      name: "Beef trotters",
       slug: "trotter-beef",
-      image: "/image/trotter.jpg",
+      image: "/image/hoov.jpg",
       price: "7900",
       rating: "4.3",
       description: "100% halal trotters ",
@@ -89,7 +89,7 @@ const data = {
       countInStock: 15,
     },
     {
-      name: "Whole chicken (1kg)",
+      name: "Whole chicken",
       slug: "whole-chicken",
       image: "/image/chicken-whole.jpg",
       price: "5900",
@@ -99,7 +99,7 @@ const data = {
       countInStock: 25,
     },
     {
-      name: "Chicken leg (2kg)",
+      name: "Chicken leg Seara (2kg)",
       slug: "chicken-leg",
       image: "/image/chicken-breast.jpg",
       price: "12900",
@@ -109,7 +109,7 @@ const data = {
       countInStock: 18,
     },
     {
-      name: "Chicken breast (2kg)",
+      name: "Chicken breast(2kg)",
       slug: "chicken-breast",
       image: "/image/chicken-breast.jpg",
       price: "13900",
@@ -129,7 +129,7 @@ const data = {
       countInStock: 9,
     },
     {
-      name: "Russian jam",
+      name: "Russian jam(With different fruits)",
       slug: "jam",
       image: "/image/jam-r.jfif",
       price: "6900",
@@ -138,20 +138,21 @@ const data = {
       category: "other",
       countInStock: 19,
     },
+
     {
-      name: "Cucumber pickles",
-      slug: "zulya-cucumber",
-      image: "/image/zulya-8500.jpg",
-      price: "8500",
-      rating: "4.6",
-      description: "Pickles zulya baraka ",
+      name: "Mixed pickles(1.5l)",
+      slug: "mixed-b",
+      image: "/image/mix.jpeg",
+      price: "9500",
+      rating: "4.5",
+      description: "Turkish mixed pickles. Not sweet ",
       category: "pickle",
-      countInStock: 22,
+      countInStock: 19,
     },
     {
       name: "Berrak Cucumber pickles (1.5l)",
       slug: "berrak-c",
-      image: "/image/berrak-c.png",
+      image: "/image/cuc.jpeg",
       price: "9500",
       rating: "4.8",
       description: "Great taste of cucumber pickle from Turkey ",
@@ -159,15 +160,16 @@ const data = {
       countInStock: 14,
     },
     {
-      name: "Mixed pickles(1.5l)",
-      slug: "mixed-b",
-      image: "/image/mixed-b.jfif",
-      price: "9500",
-      rating: "4.5",
-      description: "Turkish mixed pickles. Not sweet ",
+      name: "Cucumber pickles",
+      slug: "zulya-cucumber",
+      image: "/image/zul.jpg",
+      price: "8500",
+      rating: "4.6",
+      description: "Pickles zulya baraka ",
       category: "pickle",
-      countInStock: 19,
+      countInStock: 22,
     },
+
     {
       name: "Salted almonds (160 gr)",
       slug: "salted-almond",
@@ -209,7 +211,7 @@ const data = {
       countInStock: 17,
     },
     {
-      name: "Dates Royal Pitted (1kg)",
+      name: "Royal Pitted",
       slug: "seedless-dates",
       image: "/image/oliy.jpg",
       price: "11500",
@@ -251,7 +253,7 @@ const data = {
     {
       name: "Cooking oil (5l)",
       slug: "cooking-oil-5",
-      image: "/image/oil-5.jpeg",
+      image: "/image/oil-3.jpg",
       price: "5500",
       rating: "4.8",
       description: "Russian cooking oil, 5 litr, halal ",
@@ -342,7 +344,7 @@ const data = {
     {
       name: "Sunflower seeds",
       slug: "seeds-china",
-      image: "/image/xitoy-q.jpg",
+      image: "/image/seed.jpg",
       price: "3500",
       rating: "4.1",
       description: "Chinese salted sunflower seeds",
@@ -383,7 +385,7 @@ const data = {
     {
       name: "Wafers Korovka",
       slug: "waf-ko",
-      image: "/image/korovka.jpg",
+      image: "/image/kor.jpg",
       price: "3900",
       rating: "4.7",
       description: "wafers with cocoa chocolate filling, sweet snack",

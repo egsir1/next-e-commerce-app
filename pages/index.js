@@ -34,7 +34,7 @@ export default function Home({ products }) {
       <main className=" mx-auto">
         <Banner />
       </main>
-      <div className="grid grid-cols-2 mt-3 gap-4  md:grid-cols-3  lg:grid-cols-4 lg:mr-3 md:mr-2 ">
+      <div className="grid grid-cols-2 mt-3 mx-2 gap-4   md:grid-cols-3  lg:grid-cols-4 lg:mr-3 md:mr-2 ">
         {products.map((product) => (
           <ProductItem
             addToCartHandler={addToCartHandler}
